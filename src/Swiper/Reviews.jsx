@@ -9,13 +9,13 @@ export const Reviews = () => {
       spaceBetween={40}
       slidesPerView='auto'
       breakpoints={{
-        640: {
+        479: {
           spaceBetween: 20,
         },
-        768: {
+        767: {
           spaceBetween: 30,
         },
-        1024: {
+        991: {
           spaceBetween: 40,
         },
       }}
