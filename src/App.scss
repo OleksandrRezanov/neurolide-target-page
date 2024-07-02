@@ -50,7 +50,6 @@
       @include onMobile {
         height: 2px;
       }
-
     }
   }
 
@@ -131,7 +130,7 @@
   }
 
   &__main-title {
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 
     font-size: 75px;
     font-weight: 700;
@@ -528,30 +527,20 @@
     }
   }
 
-  &__main-bloggers-body {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-
-    @media (max-width: 1600px) {
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 17px;
-      row-gap: 10px;
-    }
-
-    @include onMobile {
-      column-gap: 8px;
-      row-gap: 17px;
-    }
-  }
-
   &__main-bloggers-card {
     position: relative;
+    width: 390px;
+    box-sizing: border-box;
     padding: 28px 32px;
     border-radius: 20px;
     background-color: $main-bloggers-card-bg-color;
 
+    @include onTablet {
+      width: 280px;
+    }
+
     @include onMobile {
+      width: 150px;
       padding: 5px 10px 10px;
     }
   }

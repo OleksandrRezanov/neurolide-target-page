@@ -3,11 +3,11 @@ import welcomeScreen from './img/welcome-screen-image.png';
 import managerScreen from './img/manager-screen-image.png';
 import balanceScreen from './img/balance-screen-image.png';
 import profileScreen from './img/profile-screen-image.png';
-import bloggerImage from './img/user-image.png';
 import descriptionImageFirst from './img/description-section-img-1.png';
 import descriptionImageSecond from './img/description-section-img-2.png';
 import './styles/reset.css';
 import './App.scss';
+import { Reviews } from './Swiper/Reviews';
 
 function App() {
   return (
@@ -117,69 +117,7 @@ function App() {
             </p>
 
             <div className='app__main-bloggers-body'>
-              <article className='app__main-bloggers-card'>
-                <img
-                  className='app__main-bloggers-card-image'
-                  src={bloggerImage}
-                  alt='Blogger'
-                />
-
-                <p className='app__main-bloggers-card-name'>maria_bank</p>
-
-                <p className='app__main-bloggers-card-account'>Revolut Premium</p>
-
-                <div className='app__main-bloggers-card-button'>$ 2828</div>
-
-                <div className='app__main-bloggers-card-arrow' />
-              </article>
-
-              <article className='app__main-bloggers-card'>
-                <img
-                  className='app__main-bloggers-card-image'
-                  src={bloggerImage}
-                  alt='Blogger'
-                />
-
-                <p className='app__main-bloggers-card-name'>olyaa_</p>
-
-                <p className='app__main-bloggers-card-account'>Feed</p>
-
-                <div className='app__main-bloggers-card-button'>$ 800</div>
-
-                <div className='app__main-bloggers-card-arrow' />
-              </article>
-
-              <article className='app__main-bloggers-card'>
-                <img
-                  className='app__main-bloggers-card-image'
-                  src={bloggerImage}
-                  alt='Blogger'
-                />
-
-                <p className='app__main-bloggers-card-name'>lena_bloger</p>
-
-                <p className='app__main-bloggers-card-account'>Hoff</p>
-
-                <div className='app__main-bloggers-card-button'>$ 750</div>
-
-                <div className='app__main-bloggers-card-arrow' />
-              </article>
-
-              <article className='app__main-bloggers-card'>
-                <img
-                  className='app__main-bloggers-card-image'
-                  src={bloggerImage}
-                  alt='Blogger'
-                />
-
-                <p className='app__main-bloggers-card-name'>iryna_bazar</p>
-
-                <p className='app__main-bloggers-card-account'>Premium clothes</p>
-
-                <div className='app__main-bloggers-card-button'>$ 300</div>
-
-                <div className='app__main-bloggers-card-arrow' />
-              </article>
+              <Reviews />
             </div>
           </section>
 
@@ -265,9 +203,9 @@ function App() {
                 <p className='app__footer-title'>Social media</p>
 
                 <div className='app__footer-icons'>
-                  <div className='app__footer-icon app__footer-icon--instagram'/>
-                  <div className='app__footer-icon app__footer-icon--linkedin'/>
-                  <div className='app__footer-icon app__footer-icon--fb'/>
+                  <div className='app__footer-icon app__footer-icon--instagram' />
+                  <div className='app__footer-icon app__footer-icon--linkedin' />
+                  <div className='app__footer-icon app__footer-icon--fb' />
                 </div>
               </div>
             </div>
