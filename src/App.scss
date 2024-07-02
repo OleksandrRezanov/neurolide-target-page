@@ -31,15 +31,7 @@
 
   &__header {
     position: relative;
-    padding: 42px 0;
-
-    @include onDesktop {
-      padding: 25px 0;
-    }
-
-    @include onTablet {
-      padding: 18px 0;
-    }
+    padding: 9px 0;
 
     &::after {
       content: '';
@@ -69,16 +61,8 @@
   }
 
   &__header-image {
-    height: 84px;
+    height: 46px;
     cursor: pointer;
-
-    @include onTablet {
-      height: 59px;
-    }
-
-    @include onMobile {
-      height: 48px;
-    }
   }
 
   &__header-button-container {
@@ -98,11 +82,11 @@
   }
 
   &__header-button {
-    padding: 19px 64px;
+    padding: 10px 64px;
     box-sizing: border-box;
 
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
 
     border-radius: 20px;
     border: 1px solid $header-button-border-color;
@@ -110,17 +94,8 @@
     box-shadow: $header-button-box-shadow;
     cursor: pointer;
 
-    @include onDesktop {
-      padding: 15px 35px;
-
-      font-size: 19px;
-      line-height: 22px;
-    }
-
     @include onTablet {
-      padding: 8px 17px;
-      font-size: 12px;
-      line-height: 14px;
+      padding: 10px 20px;
     }
 
     @include onMobile {
@@ -130,14 +105,10 @@
     }
 
     &--small {
-      padding: 19px 48px;
-
-      @include onDesktop {
-        padding: 15px 45px;
-      }
+      padding: 10px 48px;
 
       @include onTablet {
-        padding: 8px 20px;
+        padding: 10px 20px;
       }
 
       @include onMobile {
