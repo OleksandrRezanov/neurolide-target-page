@@ -133,9 +133,9 @@
   &__main-title {
     margin-bottom: 250px;
 
-    font-size: 150px;
+    font-size: 75px;
     font-weight: 700;
-    line-height: 195px;
+    line-height: 106px;
     letter-spacing: -0.1rem;
 
     background: $main-title-gradient;
@@ -147,19 +147,21 @@
     @include onDesktop {
       margin-bottom: 150px;
 
-      font-size: 58px;
-      line-height: 76px;
+      font-size: 65px;
+      line-height: 91px;
     }
 
     @include onTablet {
       margin-bottom: 56px;
 
-      font-size: 35px;
-      line-height: 46px;
+      font-size: 48px;
+      line-height: 68px;
     }
 
     @include onMobile {
       margin-bottom: 38px;
+      font-size: 38px;
+      line-height: 52px;
     }
   }
 
@@ -300,7 +302,7 @@
 
   &__main-profile-title {
     margin-top: 338px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     background: $main-profile-title-gradient;
     -webkit-background-clip: text;
@@ -309,16 +311,17 @@
 
     @include onDesktop {
       margin-top: 150px;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
     }
 
     @include onTablet {
       margin-top: 66px;
-      margin-bottom: 31px;
+      margin-bottom: 30px;
     }
 
     @include onMobile {
       margin-top: 28px;
+      margin-bottom: 20px;
     }
   }
 
@@ -470,9 +473,9 @@
   &__main-bloggers-label {
     margin-bottom: 42px;
 
-    font-size: 81px;
+    font-size: 75px;
     font-weight: 700;
-    line-height: 105px;
+    line-height: 106px;
     text-align: center;
 
     background: $main-profile-title-gradient;
@@ -481,28 +484,28 @@
     color: transparent;
 
     @include onDesktop {
-      font-size: 58px;
-      line-height: 76px;
+      font-size: 65px;
+      line-height: 91px;
     }
 
     @include onTablet {
       margin-bottom: 10px;
-      font-size: 31px;
-      line-height: 40px;
+      font-size: 48px;
+      line-height: 68px;
     }
 
     @include onMobile {
       margin-bottom: 8px;
-      font-size: 18px;
-      line-height: 23px;
+      font-size: 38px;
+      line-height: 52px;
     }
   }
 
   &__main-bloggers-description {
     margin-bottom: 125px;
 
-    font-size: 41px;
-    line-height: 53px;
+    font-size: 32px;
+    line-height: 44px;
     text-align: center;
 
     @include onDesktop {
@@ -520,8 +523,8 @@
     @include onMobile {
       margin-bottom: 38px;
 
-      font-size: 10px;
-      line-height: 13px;
+      font-size: 24px;
+      line-height: 32px;
     }
   }
 
